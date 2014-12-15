@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -ex
+
+mysql -hlocalhost -uroot -e 'CREATE DATABASE IF NOT EXISTS dbp;'
