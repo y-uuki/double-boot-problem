@@ -18,7 +18,7 @@ my $app = sub {
 
     $dbh->disconnect or die $dbh->errstr;
 
-    return [200,  [ 'Content-Type' => 'text/html' ], \()];
+    return [200,  [ 'Content-Type' => 'text/html' ], []];
 };
 
 builder {
